@@ -4,6 +4,7 @@
   "description": "example using react-images Lightbox component",
   "keywords": [],
   "main": "index.js",
+  "homepage": "https://insomnolent.github.io/pokemon-cards",
   "dependencies": {
     "react": "16.8.6",
     "react-dom": "16.8.6",
@@ -17,6 +18,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   }
 }
